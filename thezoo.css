@@ -2,14 +2,14 @@
     color: rgb(175, 46, 46);
 }
 footer{
-    background-color: rgb(71, 39, 39);
+    background-color: rgb(73, 39, 25);
     text-align: center;
     padding:2%;
     font-size: 80%;
 }
 h1{
     font-size: 50px;
-    color: rgb(71, 39, 39);
+    color: rgb(73, 39, 25);
     font-weight: 800;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
@@ -20,20 +20,40 @@ h1{
     box-sizing: border-box;
 }
 h3{
-    color: rgb(71, 39, 39)
+    color: rgb(73, 39, 25);
+    font-size: 25px;
 }
 article{
-    padding: 10px;
+    text-align: justify
 }
 nav{
     float: left;
-    padding: 2px;
+    padding-bottom: 45%;
+    text-align: left;
+    width: 100%;
+    overflow: auto;
+}
+.navbar a{
+    width: 25%;
+    color: yellowgreen;
+    padding: 5px;
+    text-align: center;
 }
 nav ul{
     list-style-type: none;
-   
+    border: maroon;
 }
 section{
     content: "";
     display: table;
     clear: both;
+}
+img{
+    padding: 2%;
+    float: right;
+}
+
+.class-div{
+    box-sizing: border-box;
+    width: 100px;
+}
