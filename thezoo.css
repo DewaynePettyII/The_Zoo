@@ -18,6 +18,8 @@ h1{
     background-color: palegoldenrod;
     padding: 3px;
     box-sizing: border-box;
+    border-color: black;
+    
 }
 h3{
     color: rgb(73, 39, 25);
